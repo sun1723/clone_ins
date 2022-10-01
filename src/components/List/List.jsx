@@ -1,6 +1,12 @@
-const List = () => {
+const List = props => {
+const {children} = props;
 
-  return <h2>List</h2>
+  return (
+    <div>
+      {children}
+    </div>
+  )
+
 }
 
 export default List;
