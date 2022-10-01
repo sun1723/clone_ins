@@ -1,7 +1,5 @@
-import React from 'react';
 import LandMarkList from '../LandMarkList';
-import LandMarkView from '../LandMarkView';
-import ReviewList from '../ReviewList';
+import Main from '../Main';
 import SearchBar from '../SearchBar';
 import './App.css';
 
@@ -13,8 +11,7 @@ function App() {
         <LandMarkList />
       </aside>
       <main>
-        <LandMarkView/>
-        <ReviewList />
+        <Main />
       </main>
       
     </div>
