@@ -1,0 +1,14 @@
+// module.exports = {
+//   parser: "babel-eslint",
+//   extends: "airbnb",
+//   settings: {
+//     'import/resolver': {
+//       alias: [
+//         ['components', './src/components'],
+//       ],
+//     },
+//   },
+//   globals: {
+//     "document": true,
+//   },
+// };
