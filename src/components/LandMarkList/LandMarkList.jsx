@@ -1,3 +1,4 @@
+import React from 'react';
 import LandMarkCard from "../LandMarkCard";
 import List from "../List";
 import { mockLandMarkListResponse } from "./__data__/mock-lanmark-list-response";

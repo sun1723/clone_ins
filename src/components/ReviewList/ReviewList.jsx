@@ -1,3 +1,4 @@
+import React from 'react';
 import ReveiwCard from "../ReveiwCard";
 import { mockReviewListResponse } from "./__data__/mock-review-list-response";
 

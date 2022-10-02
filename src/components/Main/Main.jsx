@@ -1,4 +1,5 @@
 
+import React from 'react';
 import LandMarkView from '../LandMarkView';
 import ReviewList from '../ReviewList';
 
