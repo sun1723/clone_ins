@@ -1,3 +1,4 @@
+import React from 'react';
 import {Form, Input} from 'informed'
 
 const TextInput = () =>{

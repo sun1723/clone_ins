@@ -1,14 +1,14 @@
-import LandMarkList from '../LandMarkList';
-import Main from '../Main';
-import SearchBar from '../SearchBar';
-import './App.css';
+import React from 'react';
+import Main from '@/components/Main';
+import SideBar from '@/components/SideBar';
 
-function App() {
+// import classes from './App.scss';
+
+const App = () => {
   return (
     <div className="App">
       <aside>
-        <SearchBar/>
-        <LandMarkList />
+        <SideBar />
       </aside>
       <main>
         <Main />

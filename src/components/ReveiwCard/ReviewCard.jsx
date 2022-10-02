@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ReviewCard = props => {
   const {review} = props;
 
