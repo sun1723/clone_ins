@@ -26,7 +26,16 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/, // styles files
-        use: ["style-loader", "css-loader", "sass-loader"],
+        use: ["style-loader", 
+              {
+                loader: 'css-loader',
+                options:{
+                  modules: {
+                    localIdentName: "[name]__[local]--[hash:base64:5]",
+                  }
+                }
+,              },
+              "sass-loader"],
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/, // to import images and fonts
@@ -36,7 +45,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.ts', '.js','.jsx','.tsx'],
+    extensions: ['.ts', '.js','.jsx','.tsx',],
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
