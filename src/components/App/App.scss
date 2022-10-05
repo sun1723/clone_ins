@@ -1,0 +1,19 @@
+
+body {
+  margin: 0;
+}
+
+.app{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.sidebarWrapper{
+  display: flex;
+  min-width: fit-content;
+  border: 1px solid orangered;
+}
+
+.mainWrapper {
+  border: 1px solid grey
+}
